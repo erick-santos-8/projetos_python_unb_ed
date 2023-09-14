@@ -1,7 +1,7 @@
 from pythondoido.queue import Queue
 from pythondoido.stack import Stack
 
-class pika:
+class testes:
     def operacao(self, s):
         teste = True
         pilha = Stack()
@@ -20,5 +20,5 @@ class pika:
             return True
         return False
     
-piquinha = pika()
-print(piquinha.operacao("({[]})"))
+testando = testes()
+print(testando.operacao("({[]})"))
